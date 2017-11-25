@@ -121,3 +121,8 @@ them. (You can also use a number instead of `auto` if you know better). Here is
 a sample output:
 
 <!>
+
+You should be wary of the "gotchas" involved with parallel testing, as the
+software you are testing may also run in parallel, adding to the competition
+for compute resources, resulting in overall slower test performance. There is
+no free lunch.

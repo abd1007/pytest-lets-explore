@@ -37,4 +37,7 @@ Each example contains multiple `pytest` Python scripts.
    - Fixtures can be used to parameterise tests, reducing code
      duplication. Each test is run individually of the others.
 
-   - Parameterised tests run well in parallel.
+   - Parameterised tests run well in parallel (but be careful when testing
+     software that itself runs in parallel!)
+
+ 3. *Testing software in isolation using mocking* (requires example 2)
