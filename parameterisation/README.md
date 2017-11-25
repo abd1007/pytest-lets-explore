@@ -117,10 +117,7 @@ distributed to other cores on your computer, or to other computers on a
 network, resulting in a faster test execution (usually). As a simple example,
 calling pytest with the `-n auto` flag and argument will cause pytest to search
 for available cores on your computer, and distribute tests to each of
-them. (You can also use a number instead of `auto` if you know better). Here is
-a sample output:
-
-<!>
+them. (You can also use a number instead of `auto` if you know better).
 
 You should be wary of the "gotchas" involved with parallel testing, as the
 software you are testing may also run in parallel, adding to the competition
