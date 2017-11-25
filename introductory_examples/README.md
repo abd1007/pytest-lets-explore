@@ -119,5 +119,6 @@ binary_converter.py:14: AssertionError
 While it's possible to define multiple tests in this way, there are issues with
 this method; the second test in `test_even_more` has not even been executed,
 and defining separate function for every test duplicates code, which makes
-maintenance more difficult. Fortunately, pytest has a mechanism for
-parameterising tests, explored in example 2.
+maintenance more difficult. We require a mechanism for defining a series of
+similar tests in pytest Fortunately, pytest has a parameterisation mechanism,
+explored in example 2.

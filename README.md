@@ -25,3 +25,16 @@ Each example contains multiple `pytest` Python scripts.
    - pytest reports failing tests, and has informative output.
 
    - pytest searches for tests automatically.
+
+ 2. *Fixtures, parameterisation, and parallelisation* (requires example 1)
+
+   - Fixtures (decorated with `@pytest.fixture()`) are blocks of functionality
+     that allow tests to be written in a modular way.
+
+   - Fixtures are run when the test is run, and their output is passed to the
+     test.
+
+   - Fixtures can be used to parameterise tests, reducing code
+     duplication. Each test is run individually of the others.
+
+   - Parameterised tests run well in parallel.
