@@ -19,4 +19,5 @@ def testCase(request):
 
 
 def test_my_converter(testCase):
-    assert integer_to_binary(testCase["input"]) == testCase["expectedResult"]
+    result = integer_to_binary(testCase["input"])
+    assert result == testCase["expectedResult"]

@@ -8,7 +8,8 @@ def integer_to_binary(inputInteger, zeroPadLength=0):
 def test_my_converter():
     testCase = {"input": 8,
                 "expectedResult": "1000"}
-    assert integer_to_binary(testCase["input"]) == testCase["expectedResult"]
+    result = integer_to_binary(testCase["input"])
+    assert result == testCase["expectedResult"]
 
     # In the previous example, this was:
-    # assert convert_integer_to_binary_string(8, 0) == "1000"
+    # result == "1000"

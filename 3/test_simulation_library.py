@@ -8,7 +8,7 @@ def inputData(request):
     return request.param
 
 
-def test_postprocess(inputData):
+def test_simulation(inputData):
     with open("parameters.txt", "w") as parameterFile:
         parameterFile.write(str(inputData))
     output = simulation_library.run_simulation()
